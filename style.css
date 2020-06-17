@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111;
+}
+
+input {
+    width: 300px;
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border: 1px solid  #edf2f7;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color:  #edf2f7;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: lime;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    height: 300px;
+    max-height:300px;
+    overflow: auto;
+    width: 245px;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+.item {
+    list-style: none;
+    position: relative;
+}
+
+p, #list {
+    color: cornsilk;
+}
+
+hr {
+    color: cornsilk;
+}
+
+.item p {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 130px 0 8px;
+    color: cornsilk;
+}
+
+.add-to-do button{
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 5px;
+    font-weight: 700;
+    background-color: lime;
+}
+
+li.item {
+    display: inline-block;
+}
+
+.add-to-do input{
+   width: 245px;
+   display: inline-block;
+}
+
+i:hover{
+    cursor: pointer;
+   
+}
+
+i {
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top: 25px;
+}
